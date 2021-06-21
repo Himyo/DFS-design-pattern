@@ -359,11 +359,6 @@ ALTER TABLE `Photo`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `Releases`
---
-ALTER TABLE `Releases`
-  ADD PRIMARY KEY (`id`);
-
 --
 -- Index pour la table `Tournaments`
 --
@@ -392,13 +387,8 @@ ALTER TABLE `Users`
 --
 -- AUTO_INCREMENT pour les tables déchargées
 --
-
 --
 -- Contraintes pour la table `Cards`
---
-ALTER TABLE `Cards`
-  ADD CONSTRAINT `fk_cards_release1` FOREIGN KEY (`releases_id`) REFERENCES `Releases` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
