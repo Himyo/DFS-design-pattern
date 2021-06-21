@@ -6,3 +6,4 @@ use Core\Database;
 echo 'Hello';
 
 $pdo = Database::getInstance();
+// $pdo->all("Users");
