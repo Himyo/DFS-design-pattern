@@ -6,7 +6,7 @@ INSERT INTO `Users` (`id`, `lastname`, `firstname`, `email`, `password`, `status
 (15, 'ddd', 'bad', 'dabdab@gmail.com', '$2y$10$B3nZj84w8N03vnY33XYyXe4jSxbk3nZ9KBEoiIrNi7xAeY6X2W8IG', 'ACCEPTED', 'USER', NULL, 0),
 (16, 'o', 'ba', 'gay@mod.com', '$2y$10$L4L2AaRqq9XEfMrC5egj7uTVw40qC8pumuDrxD4tgF9OYa0Y2eGAe', 'ACCEPTED', 'USER', NULL, 0),
 (20, 'Mod', 'Moderator', 'Mododo@g.com', '$2y$10$AYHf7ufgTlvqbeJiG3gUle2jLr6qd3oPkMZCaqLummmeDJ0pgbSR2', 'ACCEPTED', 'ADMIN', NULL, 0),
-(21, 'marinier', 'anthony', 'eldera@gmail.com', '$2y$10$kohsjOeDd5KSa1uc.518quhM1WpKYYgWf3EHR9jadK1iD25qbgeBK', 'ACCEPTED', 'ADMIN');
+(21, 'marinier', 'anthony', 'eldera@gmail.com', '$2y$10$kohsjOeDd5KSa1uc.518quhM1WpKYYgWf3EHR9jadK1iD25qbgeBK', 'ACCEPTED', 'ADMIN', NULL, 0);
 
 INSERT INTO `Cards` (`id`, `image_url`, `name`, `toughness`, `power`, `text`, `lore`, `ruling`, `multiverse_id`, `releases_id`, `mana_id`, `type_id`, `legalities_id`) VALUES
 (1, 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130483&type=card', 'Abundance', 0, 0, 'If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.', '', 'This replacement effect replaces the draw, so nothing that triggers on a draw will trigger.', 130483, 1, 1, 1, 1),
