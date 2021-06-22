@@ -10,7 +10,7 @@ class Database {
         if (self::$instance === null) {
             // '<db_driver>:host=<db_host>;dbname=<db_name>', 'user', 'mot de passe'
             try {
-                $pdo = new \PDO('mysql:host=db;dbname=design', 'root', 'S3CR3T');
+                    $pdo = new \PDO('mysql:host=db;dbname=design', 'root', 'S3CR3T');
                 $database = new self($pdo);
                 return self::$instance = $database;
                 // return self::$instance = new self(new \PDO('mysql:host=db;dbname=design', 'root', 'S3CR3T'));
