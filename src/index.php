@@ -1,5 +1,9 @@
 <?php
 require 'autoload.php';
-use Models\Database;
+
+use Core\Database;
+
 echo 'Hello';
+
 $pdo = Database::getInstance();
+// var_dump($pdo->all());
