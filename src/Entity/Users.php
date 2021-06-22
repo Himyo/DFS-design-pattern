@@ -2,7 +2,7 @@
 
 namespace Model;
 
-class User {
+class Users {
     public $id = null;
     public $firstname;
     public $lastname;
